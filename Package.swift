@@ -17,7 +17,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "PhenixSdk",
-            path: "lib/Universal/PhenixSdk.xcframework"
+            url: "https://github.com/brutmedia/PhenixRTS-iOSSDK-fork/lib/Universal/PhenixSdk.xcframework.zip"
+            checksum: "96de411ec22d152db16e4cd364c449187e5b6037d8494d9595a77c5e6358638b"
         )
     ]
 )
