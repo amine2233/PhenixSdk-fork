@@ -17,8 +17,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "PhenixSdk",
-            url: "https://s3.eu-west-1.amazonaws.com/www.intech-consulting.fr/PhenixSdk.xcframework.zip",
-            checksum: "96de411ec22d152db16e4cd364c449187e5b6037d8494d9595a77c5e6358638b"
+            url: "https://s3.eu-west-1.amazonaws.com/www.intech-consulting.fr/v2021.0.15.1/PhenixSdk.xcframework.zip",
+            checksum: "554f842a3d3316cce783ba5f32d41d3cb4c81e30bcbdab59a9b38719c8ab46d8"
         )
     ]
 )
